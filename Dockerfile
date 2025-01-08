@@ -10,4 +10,4 @@ COPY target/*.jar $APP_HOME/
 WORKDIR $APP_HOME
 
 # Adjust the CMD if needed (e.g., specify which .jar to run)
-CMD ["java", "-jar", "your-specific-jar-file.jar"]
+CMD ["java", "-jar", "app.jar"]
